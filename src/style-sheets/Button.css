@@ -1,0 +1,29 @@
+.container-click {
+    width: 20%;
+
+}
+
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    width: 75%;
+    font-size: clamp(15px, 2vw, 35px);
+}
+
+button:hover {
+    background-color: #00471b;
+}
+
+.click-btn {
+    background-color: #002ead;
+}
+
+.restart-btn {
+    background-color: #5a01a7;
+}
