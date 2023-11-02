@@ -1,8 +1,7 @@
 .counter {
-    min-width: 300px;
-    max-height: 300px;
-    color: fuchsia;
-    font-size: clamp(15px, 25vw, 160px);
+    width: fit-content;
+    color: #00FFFF;
+    font-size: clamp(15px, 20vw, 160px);
     padding: 25px;
     display: flex;
     align-items: center;

@@ -1,10 +1,13 @@
-.container-click {
-    width: 20%;
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
-
 button {
+    flex: 1;
+    margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
@@ -12,8 +15,10 @@ button {
     border-radius: 15px;
     margin: 5px;
     cursor: pointer;
-    width: 75%;
-    font-size: clamp(15px, 2vw, 35px);
+
+
+
+    font-size: clamp(20px, 4vw, 35px);
 }
 
 button:hover {
@@ -21,9 +26,10 @@ button:hover {
 }
 
 .click-btn {
-    background-color: #002ead;
+    /* background-color: #002ead; */
+    background-color: #D705DB;
 }
 
 .restart-btn {
-    background-color: #5a01a7;
+    background-color: #4834d4;
 }
