@@ -7,12 +7,31 @@ import Logo from './images/logo.png';
 
 function App() {
 
-  const [numClicks, setnumClicks] = useState(0)
+  const [numClicks, setnumClicks] = useState(0);
+  const [message, setMessage] = useState('');
 
 
 
   const handleClick = () => {
     setnumClicks(numClicks + 1);
+
+
+    if (numClicks + 1 === 10) {
+      setMessage('Has hecho click diez veces. ¡Genial!')
+    } else if (numClicks + 1 === 15) {
+      setMessage('15 ya, está bien, te dejo a tu rollo')
+    } else if (numClicks + 1 === 25) {
+      setMessage('¿No tienes ganas de ir al baño ?')
+    } else if (numClicks + 1 === 50) {
+      setMessage('Creo que necesitas un hobby')
+    } else if (numClicks + 1 === 100) {
+      setMessage('Tu familia está preocupada por ti')
+    } else if (numClicks + 1 === 150) {
+      setMessage('Desde aquí es un viaje en solitoria')
+    } else {
+      setMessage('')
+    }
+
   }
 
   const resetCounter = () => {
@@ -20,10 +39,13 @@ function App() {
   }
 
 
+
+
   return (
     <div className='App'>
       <div className='container-logo'>
-        <a href="https://www.linkedin.com/in/raquel-pe-go/" target='_blank'>
+        <a href="https://www.linkedin.com/in/raquel-pe-go/" target='_blank'
+          rel='noreferrer'>
           <img className='raquel-logo'
             src={Logo}
             alt='Logo de Raquel' />
@@ -44,7 +66,12 @@ function App() {
           text='Reset'
           clickButton={false}
           event={resetCounter} />
+
       </div>
+
+      <div className='message'> {message} </div>
+
+
     </div>
   );
 }

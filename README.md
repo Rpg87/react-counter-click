@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React counter by [Raquel Peña](https://www.linkedin.com/in/raquel-pe-go/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
