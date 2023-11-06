@@ -36,6 +36,7 @@ function App() {
 
   const resetCounter = () => {
     setnumClicks(0);
+    setMessage('');
   }
 
 

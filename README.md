@@ -1,70 +1,103 @@
 # React counter by [Raquel Peña](https://www.linkedin.com/in/raquel-pe-go/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React web app to count your clicks!
 
-## Available Scripts
+<h2 id="table-of-contents"> __φ(。。)  Table of Contents</h2>
 
-In the project directory, you can run:
+<details open="open">
+  <summary>Table of Contents</summary>
 
-### `npm start`
+- [About the project](#about-the-project)
+- [Features](#features)
+- [Demo](#demo)
+- [Key Learning Aspects](#key-learning-aspects)
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Who is Raquel](#who-is-raquel)
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ٩(⁎❛ᴗ❛⁎)۶ About the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Click Counter App is a straightforward web application built with React. It allows users to increment a counter by clicking a button and reset the counter to zero. As the counter reaches specific milestones, fun messages appear below the counter.
 
-### `npm test`
+## (ﾉ ◕ ヮ ◕)ﾉ\*:･ﾟ ✧ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Click the "Click" button to increase the counter.
+- Click the "Reset" button to reset the counter to zero.
+- Fun messages appear as you reach certain click milestones.
 
-### `npm run build`
+## ヽ(o ＾ ▽ ＾ o)ノ Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can try the app live [here](https://rpg87.github.io/react-counter-click/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details> <summary>Or you can see an example right here by clicking on the arrow   </summary> 
+<br>
+<p align=center>
+<img src='./src/images/counterGif.gif' width= 400px > </img> </p>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## (◕‿◕)♡ Key Learning Aspects
 
-### `npm run eject`
+This Click Counter App project provided an excellent learning experience. Here's what it helped me achieve:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Solid React Fundamentals:** By building this project, I gained a deeper understanding of React's core concepts, including components, state management, and event handling.
+- **Responsive Design:** The app's responsive design was achieved without relying on media queries. I learned how to create a fluid layout that adapts to various screen sizes.
+- **Component-Based Architecture:** I practiced structuring my project in a component-based way, making it more modular and easier to maintain.
+- **State Management:** I improved my skills in managing component state, which is crucial in more complex applications.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Handling User Interactions:** This project improved my understanding of handling user interactions through the creation of buttons that increment the counter and reset it.
+- **Version Control:** This project also reinforced my version control skills using Git and GitHub for collaboration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The knowledge gained from this project has provided a solid foundation for tackling more advanced and complex web development projects.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## (　･ω･)☞ Getting started
 
-## Learn More
+**Clone the repository** to your local machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> <code> git clone https://github.com/your-username/click-counter-app.git </code>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Change the working directory** to the project's root folder:
 
-### Code Splitting
+> <code>cd click-counter-app </code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Install the required dependencies:**
 
-### Analyzing the Bundle Size
+> <code> npm install </code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Start the development server:**
 
-### Making a Progressive Web App
+> <code> npm start </code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The app should now be running on **http://localhost:3000/**.
 
-### Advanced Configuration
+## ( ͠° ͟ʖ ͡°) Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- React: A JavaScript library for building user interfaces.
+- HTML and CSS: Standard web technologies for structuring and styling the app.
 
-### Deployment
+## ＼(＾ ∀ ＾)メ(＾ ∀ ＾)ノ Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-### `npm run build` fails to minify
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Create a pull request with a clear description of your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## (✯◡✯) Acknowledgments
+
+Thanks to [Free Code Camp](https://www.freecodecamp.org/) for all the information and free videos.
+
+## ฅ(^◕ᴥ◕^)ฅ Who is Raquel
+
+I am Raquel, I consider myself a person with a great sense of humor, always eager to learn, a lover of challenges and this combination is what led me to study web development.
+
+If you want to know more about me or if you have a fun project and you need help we could work together, you can find me [here](https://www.linkedin.com/in/raquel-pe-go/)
+
+---
+
+---
+
+If you've reached this point in the README, congratulations, you're officially a "ReadMe" champion! 🏆 Thanks for taking the time to explore the Click Counter App. Happy coding and keep clicking away!
